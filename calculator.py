@@ -20,3 +20,4 @@ if __name__ == "__main__":
     y = float(input("Enter second number: "))
     op = input("Enter operation (+ - * /): ")
     print("Result:", calculate(x, y, op))
+print("Simple Calculator v2.0 — FAST mode")
