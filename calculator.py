@@ -15,9 +15,8 @@ def calculate(a, b, op):
         raise ValueError("Unsupported operation")
 
 if __name__ == "__main__":
-    print("Simple Calculator v1.0")
+    print("Simple Calculator v2.0 — merged fast+safe mode")
     x = float(input("Enter first number: "))
     y = float(input("Enter second number: "))
     op = input("Enter operation (+ - * /): ")
     print("Result:", calculate(x, y, op))
-print("Simple Calculator v2.0 — FAST mode")
